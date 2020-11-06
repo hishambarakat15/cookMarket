@@ -1,0 +1,376 @@
+/* Start Form App */
+.form-app{
+    background-color: #e7e7e7;
+    padding: 30px 0;
+}
+.form-app form{
+    padding: 0 50px
+}
+@media(max-width: 768px) and (min-width: 577px){
+    .form-app form{ 
+        padding: 0 100px;
+    }
+}
+@media(max-width: 375px){
+    .form-app form{
+        padding: 0 30px;
+    }
+}
+@media(max-width: 320px){
+    .form-app form{
+        padding: 0 20px;
+    }
+}
+.form-app .form-group-item{
+    margin-bottom: 5px;
+    position: relative;
+}
+.form-app .form-group-item i{
+    position: absolute;
+    top: 6px;
+    right: 11px;
+    color: #5c23c6;
+}
+.form-app .custom-input{
+    width: 100%;
+    border-radius: 30px;
+    border: 2px solid #d6d0e2;
+    padding: 9px 12px;
+    outline: none;
+    font-size: 17px;
+    transition: border 0.5s;
+    background-color: transparent;
+}
+@media(max-width: 768px) and (min-width: 577px){
+    .form-app .custom-input{
+        padding: 10px 15px;
+        font-size: 19px;
+    }
+}
+.form-app .login-group .custom-input{
+    padding-right: 35px;
+}
+.form-app .custom-input:focus{
+    border: 2px solid #5c23c6;
+    color: #5c23c6;
+}
+.form-app .custom-input::placeholder{
+    color: #333;
+    transition: color 0.5s;
+    font-size: 17px;
+}
+.form-app input:focus::placeholder {
+    color: transparent;
+}
+
+.form-app .login-info{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-app .login-info .login-btn{
+    background-color: #5c23c6;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 30px;
+    border: 0;
+    outline: none;
+}
+@media(max-width: 768px) and (min-width: 577px){
+    .form-app .login-info .login-btn{
+        font-size: 20px;
+        padding: 8px 30px;
+    }
+}
+.form-app .login-info .forget-password-link{
+    color: #333;
+    font-size: 17px;
+}
+@media(max-width: 768px) and (min-width: 577px){
+    .form-app .login-info .forget-password-link{
+        font-size: 18px;
+    }
+}
+.form-app .create-new-user{
+    background-color: #d10933;
+    display: block;
+    color: #fff;
+    border-radius: 10px;
+    width: 100%;
+    padding: 11px 0;
+    border: 0;
+    outline: none;
+    margin-top: 20px;
+    font-size: 17px;
+    text-align: center;
+}
+@media(max-width: 768px) and (min-width: 577px){
+    .form-app .create-new-user{
+        font-size: 18px;
+    }
+}
+.form-app  .social-login{
+    margin-top: 25px;
+    position: relative;
+    
+}
+.form-app  .social-login::before{
+    position: absolute;
+    z-index: 1;
+    width: 90%;
+    height: 100%;
+    background-color: #eaeaea;
+    content: '';
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.19) ;
+}
+@media(max-width: 768px) and (min-width: 577px){
+    .form-app .social-login::before{
+        width: 96%;
+    }
+}
+@media(max-width: 576px) and (min-width: 481px){
+    .form-app .social-login::before{
+        width: 95%;
+    }
+}
+@media(max-width: 480px){
+    .form-app .social-login::before{
+        width: 96%;
+    }
+}
+.form-app  .social-login .soical-login-items{
+    z-index: 2;
+    position: relative;
+    padding: 20px 50px;
+}
+@media(max-width: 768px) and (min-width: 577px){
+    .form-app  .social-login .soical-login-items{
+        padding: 20px 100px;
+    }
+}
+@media(max-width: 375px){
+    .form-app  .social-login .soical-login-items{
+        padding: 20px 30px;
+    }
+}
+@media(max-width: 320px){
+    .form-app  .social-login .soical-login-items{
+        padding: 20px 20px;
+    }
+}
+.form-app  .social-login .soical-login-items a{
+    display: flex;
+    background-color: #000;
+    padding: 8px 20px;
+    color: #fff;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+@media(max-width: 768px) and (min-width: 577px){
+    .form-app .social-login .soical-login-items a{
+        padding: 4px 20px;
+    }
+}
+@media(max-width: 320px){
+    .form-app  .social-login .soical-login-items a{
+        padding: 6px 15px;
+    }
+}
+.form-app  .social-login .soical-login-items a span{
+    font-size: 17px;
+}
+@media(max-width: 768px) and (min-width: 577px){
+    .form-app  .social-login .soical-login-items a span{
+        font-size: 18px;
+    }
+}
+.form-app  .social-login .soical-login-items a i::before{
+    font-size: 18px;
+}
+@media(max-width: 768px) and (min-width: 577px){
+    .form-app  .social-login .soical-login-items a i::before{
+        font-size: 23px;
+        position: relative;
+        top: 2px;
+    }
+}
+
+.form-app  .social-login .soical-login-items a.facebook-login{
+    background-color: #2b6bab;
+}
+.form-app  .social-login .soical-login-items a.google-login{
+    background-color: #d64937;
+}
+.form-app .form-group-item .register-btn{
+    background-color: #d10933;
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    color: #fff;
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    font-family: 'Hacen Saudi Arabia';
+    margin-top: 50px;
+    box-shadow: 0 0 30px rgba(0,0,0, .5);
+}
+
+
+/* Start .form-app .custom-input2 */
+.form-group2-item .custom-input2{
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid #d6d0e2;
+    padding: 20px 12px;
+    outline: none;
+    font-size: 17px;
+    transition: border 0.5s;
+    background-color: transparent;
+}
+.form-group2-item {
+    position: relative;
+    margin-bottom: 15px;
+}
+.form-group2-item label {
+    position: absolute;
+    top: 31%;
+    right: 7%;
+    font-size: 15px;
+    color: #000;
+    background-color: #e7e7e7;
+}
+
+
+
+
+
+/* Start L Form */
+.l-form{
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.form{
+    padding: 25px;
+}
+.form-div{
+    position: relative;
+    height: 55px;
+    margin-bottom: 25px;
+    display: block;
+}
+.form-div-list{
+    position: relative;
+    height: 40px;
+    margin-bottom: 5px;
+    display: block;
+}
+.form-div > .form-input{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    background-color: transparent;
+    outline: none;
+    padding: 15px;
+    z-index: 1;
+}
+.form-div > .form-label{
+    background-color: #e7e7e7;
+    position: absolute;
+    top: 15px;
+    right: 0;
+    padding: 0 25px;
+    color: #333;
+    font-size: 17px;
+    transition: 0.3s;
+    border-radius: 15px;
+}
+.form-button{
+    display: block;
+    margin-right: auto;
+    padding: 10px 0;
+    outline: none;
+    transition: 0.3s;
+    background-color: #d10933;
+    color: #fff;
+    width: 100%;
+    border-radius: 20px;
+    border: 0;
+}
+.form-div .form-btn{
+    background: #d10933;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    border: 0;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 10px;
+    font-family: 'Hacen Saudi Arabia';
+    outline: none;
+}
+.form-button:hover{
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.15);
+}
+.form-input:focus + .form-label{
+    top: -15px;
+    right: 15px;
+    color: #5c23c6;
+    border: 2px solid #ccc;
+    z-index: 2;
+    font-size: 15px;
+}
+.form-input:not(:placeholder-shown).form-input:not(:focus) + .form-label{
+    top: -15px;
+    right: 15px;
+    color: #5c23c6;
+    border: 2px solid #5c23c6;
+    z-index: 2;
+    font-size: 15px;
+}
+.form-input:focus{
+    border: 2px solid #5c23c6;
+}
+
+.form-custom-height{
+    height: auto;
+}
+.add{
+    background-color: #5c23c6;
+    width: 70%;
+    border-radius: 30px;
+    color: #fff;
+    padding: 8px 0;
+    margin: 5px auto;
+    text-align: center;
+    border: 0;
+    display: block;
+    outline: none;
+}
+form #ingredients-list .ingredients-item{
+    position: relative;
+}
+form #ingredients-list .ingredients-item button{
+    position: absolute;
+    top: -60px;
+    left: -13px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px dashed #5c23c6;
+    color: #d10933;
+}
+form .ingredients-item{
+    background-color: #fff;
+    position: relative;
+    padding: 15px;
+}

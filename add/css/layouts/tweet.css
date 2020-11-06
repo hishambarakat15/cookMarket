@@ -1,0 +1,81 @@
+.tweet .tweet-item{
+    background-color: #f3f3f3;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.50);
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.tweet .tweet-item .tweet-title{
+    font-size: 22px;
+    color: #666;
+    margin-bottom: 10px;
+}
+@media(max-width: 576px){
+    .tweet .tweet-item .tweet-title{
+        font-size: 17px;
+    }
+}
+@media(max-width: 480px){
+    .tweet .tweet-item .tweet-title{
+        font-size: 16px;
+        line-height: 1.5;
+    }
+}
+@media(max-width: 375px){
+    .tweet .tweet-item .tweet-title{
+        font-size: 15px;
+    }
+}
+@media(max-width: 320px){
+    .tweet .tweet-item .tweet-title{
+        font-size: 15px;
+    }
+}
+.tweet .tweet-item .tweet-info{
+    display: flex;
+    justify-content: center;
+}
+.tweet .tweet-item .tweet-info .tweet-icon{
+    color: #3d7993;
+    position: relative;
+    top: 8px;
+    margin-left: 10px;
+}
+.tweet .tweet-item .tweet-info .tweet-icon i::before{
+    font-size: 25px;
+}
+.tweet .tweet-item .tweet-info .tweet-date{
+    background-color: #3d7993;
+    border-radius: 30px;
+    color: #fff;
+    padding: 5px 20px;
+}
+.tweet .tweet-item .tweet-info .tweet-date{
+    display: flex;
+    justify-content: space-between;
+}
+.tweet .tweet-item .tweet-info .tweet-date .date i,
+.tweet .tweet-item .tweet-info .tweet-date .clock i{
+    float: right;
+    margin-left: 5px;
+}
+.tweet .tweet-item .tweet-info .tweet-date .date{
+    margin-left: 10px;
+}
+.tweet .tweet-item .tweet-info .tweet-date .date i::before,
+.tweet .tweet-item .tweet-info .tweet-date .clock i::before{
+    font-size: 17px;
+}
+
+@media(max-width: 576px){
+    .tweet .screen-white{
+        width: 90%;
+    }
+}
+@media(max-width: 375px){
+    .tweet .screen-white{
+        width: 95%;
+        padding: 10px;
+    }
+}

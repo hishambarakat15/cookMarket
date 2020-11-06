@@ -1,0 +1,28 @@
+.policy .screen-white{
+    padding: 15px !important;
+    margin: 15px auto !important;
+}
+.policy .policy-item{
+    background-color: #fff;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.50);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.policy .policy-item:nth-child(odd){
+    background-color: #f3f3f3 !important;
+}
+.policy .policy-item:nth-child(odd) p{
+    color: #666 !important;
+}
+.policy .policy-item:nth-child(even){
+    background-color: #3d7993 !important;
+    color: #fff !important;
+}
+.policy .policy-item:nth-child(even) p{
+    color: #fff !important;
+}
+.policy .policy-item:last-child{
+    margin-bottom: 0 !important;
+}

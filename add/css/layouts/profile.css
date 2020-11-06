@@ -1,0 +1,80 @@
+/* Start profile */
+.profile-box{
+    background-color: #383838;
+    padding: 15px;
+    border-radius: 15px 15px 0 0;
+}
+.profile-box .profile-user-name{
+    color: #fff;
+    font-size: 25px;
+}
+.profile .screen-white{
+    padding: 0;
+    padding-bottom: 5px;
+}
+.profile .profile-pic-div {
+    width: 138px;
+    height: 138px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #383838;
+    padding: 5px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.63);
+}
+.profile .profile-pic-div img{
+    border-radius: 50%;;
+}
+#file{
+    display: none;
+}
+.profile .profile-pic-div #uploadBtnPhoto{
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    bottom: 0;
+    transform: translateX(-50%);
+    text-align: center;
+    left: 50%;
+    background-color: rgba(0, 0, 0, 0.55);
+    color: #fff;
+    line-height: 40px;
+    font-size: 15px;
+    cursor: pointer;
+    display: none;
+}
+
+.profile-info{
+    padding: 15px 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.17);
+    margin-top: 20px;
+    border-radius: 30px;
+    border: 2px solid #d4d4d4;
+    width: 95%;
+    margin: 10px auto;
+}
+.profile-info li{
+    padding: 8px 0;
+    border-bottom: 1px solid #ccc;
+}
+.profile-info li:last-child{
+    border-bottom: none;
+}
+.profile-info li span{
+    color: #3d7993;
+}
+.edit-password-link{
+    background-color: #6a6a6a;
+    padding: 10px 0;
+    border-radius: 30px;
+    margin: 20px auto;
+    text-align: center;
+    display: block;
+    width: 80%;
+    color: #fff;
+    font-family: 'Hacen Saudi Arabia';
+    font-size: 17px;
+}

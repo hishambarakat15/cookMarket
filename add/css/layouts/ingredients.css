@@ -1,0 +1,64 @@
+.ingredients{
+    padding: 20px 25px;
+}
+.ingredients .normal-ingredients{
+    padding: 2px 8px;
+    border: 2px solid #ccc;
+    border-radius: 30px;
+    display: inline-block !important;
+    font-size: 16px;
+    margin-bottom: 7px;
+}
+.ingredients .active-ingredients{
+    border: 2px solid #ff70a2;
+    color: #ff70a2;
+}
+.ingredients-form{
+    position: relative;
+}
+.ingredients-form input{
+    width: 100%;
+    border: 2px solid #4b13b1;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 10px;
+    padding-right: 38px;
+    transition: border 0.5s;
+}
+.ingredients-form i{
+    position: absolute;
+    top: 3px;
+    right: 10px;
+    color: #ff70a2;
+}
+.ingredients-form i::before{
+    font-size: 25px;
+}
+.ingredients-form input:focus{
+    outline: none;
+    border: 2px solid #ff70a2;
+}
+.ingredients-form input::placeholder{
+    color: #fff;
+    transition: color 0.5s;
+}
+.ingredients-form input:focus::placeholder{
+    color: transparent;
+}
+
+
+/* Start ingredients-view-button */
+.ingredients-view{
+    padding: 15px 25px 0;
+}
+.ingredients-view .ingredients-view-button{
+    display: block;
+    width: 100%;
+    background: #fe075e;
+    border-radius: 30px;
+    padding: 9px 10px;
+    border: 0;
+    font-family: 'Hacen Saudi Arabia';
+    color: #fff;
+}

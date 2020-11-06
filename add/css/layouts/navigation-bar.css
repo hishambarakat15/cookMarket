@@ -1,0 +1,22 @@
+.navigation{
+    display: flex;
+    
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: +999999;
+    
+}
+.navigation .navigation-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #232121;
+    padding: 0px 10px;
+    color: #ff70a2;
+    width: 100%;
+}
+.navigation .navigation-content .navigation-back .back-link{
+    color: #ff70a2;
+}

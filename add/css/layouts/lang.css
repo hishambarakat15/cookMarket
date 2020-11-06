@@ -1,0 +1,73 @@
+.language{
+    background-image: url(../../img/language.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.language::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-background-image: linear-gradient(rgba(209, 9, 51, 0.77), rgba(92, 35, 198, 0.9));
+    -moz-background-image: linear-gradient(rgba(209, 9, 51, 0.77), rgba(92, 35, 198, 0.9));
+    -o-background-image: linear-gradient(rgba(209, 9, 51, 0.77), rgba(92, 35, 198, 0.9));
+    background-image: linear-gradient(rgba(209, 9, 51, 0.77), rgba(92, 35, 198, 0.9));
+    content: '';
+}
+.language .language-logo{
+    position: relative;
+    z-index: +3;
+    top: 13%;
+    right: 0;
+    width: 150px;
+    margin: 0 auto;
+}
+.language .language-info{
+    background-color: rgba(0, 0, 0, 0.63);
+    position: absolute;
+    top: 45%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: +2;
+    padding: 25px 30px;
+    text-align: center;
+}
+.language .language-info .language-ar-title{
+    font-size: 22px;
+    color: #ff70a2;
+    margin-bottom: 3px;
+}
+.language .language-info .language-en-title{
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 3px;
+}
+.language .language-info .languages ul li{
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.language .language-info .languages ul li a{
+    display: block;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    background: #ccc;
+    border-radius: 50%;
+    font-size: 22px;
+    color: #fff
+}
+.language .language-info .languages{
+    margin-top: 10px;
+}
+.language .language-info .languages ul li a.language-ar{
+    background-color: #d10933;
+}
+.language .language-info .languages ul li a.language-en{
+    background-color: #5c23c6;
+}

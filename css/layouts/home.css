@@ -1,0 +1,109 @@
+.home .home-content{
+    background-color: #f4f4f4;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+@media(max-width: 480px){
+    .home .home-content{
+        grid-gap: 20px;
+        padding: 33px;
+    }
+}
+@media(max-width: 375px){
+    .home .home-content{
+        grid-gap: 20px;
+        padding: 20px;
+    }
+}
+@media(max-width: 320px){
+    .home .home-content{
+        grid-gap: 10px;
+        padding: 10px;
+    }
+}
+.home .home-content .home-item{
+    width: 100%;
+    height: auto;
+}
+.home .home-content .home-item .home-item-box{
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.18);
+    text-align: center;
+    position: relative;
+    padding: 0;
+    height: 150px;
+    display: block;
+    width: 100%;
+}
+@media(max-width: 480px){
+    .home .home-content .home-item .home-item-box{
+        height: 135px;
+    }
+}
+@media(max-width: 320px){
+    .home .home-content .home-item .home-item-box{
+        height: 120px;
+    }
+}
+@media(max-width: 320px){
+    .home .home-content .home-item .home-item-box{
+        height: 110px;
+    }
+}
+.home .home-content .home-item .home-item-box .home-item-box-content {
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+}
+@media(max-width: 480px){
+    .home .home-content .home-item .home-item-box .home-item-box-content{
+        top: 61%;
+        width: 90%;
+    }
+}
+@media(max-width: 320px){
+    .home .home-content .home-item .home-item-box .home-item-box-content{
+        top: 60%;
+    }
+}
+.home .home-content .home-item .home-item-box i{
+    margin-bottom: 10px;
+    color: #3d7993;
+    display: block;
+}
+@media(max-width: 320px){
+    .home .home-content .home-item .home-item-box i{
+        margin-bottom: 5px;
+    }
+}
+.home .home-content .home-item .home-item-box i::before{
+    font-size: 60px;
+}
+@media(max-width: 375px){
+    .home .home-content .home-item .home-item-box i::before{
+        font-size: 50px;
+    }
+}
+@media(max-width: 320px){
+    .home .home-content .home-item .home-item-box i::before{
+        font-size: 40px;
+    }
+}
+.home .home-content .home-item .home-item-box .home-item-title{
+    font-size: 20px;
+    color: #666666;
+}
+@media(max-width: 480px){
+    .home .home-content .home-item .home-item-box .home-item-title{
+        font-size: 17px;
+    }
+}
+@media(max-width: 375px){
+    .home .home-content .home-item .home-item-box .home-item-title{
+        font-size: 16px;
+    }
+}

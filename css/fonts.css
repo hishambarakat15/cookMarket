@@ -1,0 +1,117 @@
+    @font-face {
+        font-family: 'Hacen Algeria';
+        src: url('../fonts/HacenAlgeria.eot');
+        src: url('../fonts/HacenAlgeria.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/HacenAlgeria.woff2') format('woff2'),
+            url('../fonts/HacenAlgeria.woff') format('woff'),
+            url('../fonts/HacenAlgeria.ttf') format('truetype'),
+            url('../fonts/HacenAlgeria.svg#HacenAlgeria') format('svg');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Hacen Saudi Arabia';
+        src: url('../fonts/HacenSaudiArabia.eot');
+        src: url('../fonts/HacenSaudiArabia.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/HacenSaudiArabia.woff2') format('woff2'),
+            url('../fonts/HacenSaudiArabia.woff') format('woff'),
+            url('../fonts/HacenSaudiArabia.ttf') format('truetype'),
+            url('../fonts/HacenSaudiArabia.svg#HacenSaudiArabia') format('svg');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 08/09/2020 11:11
+  	*/
+
+      @font-face {
+        font-family: "Flaticon";
+        src: url("../fonts/Flaticon.eot");
+        src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+             url("../fonts/Flaticon.woff2") format("woff2"),
+             url("../fonts/Flaticon.woff") format("woff"),
+             url("../fonts/Flaticon.ttf") format("truetype"),
+             url("../fonts/Flaticon.svg#Flaticon") format("svg");
+        font-weight: normal;
+        font-style: normal;
+      }
+      
+      @media screen and (-webkit-min-device-pixel-ratio:0) {
+        @font-face {
+          font-family: "Flaticon";
+          src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+        }
+      }
+      
+      [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+      [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+        font-family: Flaticon;
+        font-size: 20px;
+        font-style: normal;
+      }
+      
+      .flaticon-email-envelope:before { content: "\f100"; }
+      .flaticon-smartphone:before { content: "\f101"; }
+      .flaticon-facebook:before { content: "\f102"; }
+      .flaticon-twitter:before { content: "\f103"; }
+      .flaticon-youtube:before { content: "\f104"; }
+      .flaticon-google-plus:before { content: "\f105"; }
+      .flaticon-call:before { content: "\f106"; }
+      .flaticon-whatsapp:before { content: "\f107"; }
+      .flaticon-left-arrow:before { content: "\f108"; }
+      .flaticon-right:before { content: "\f109"; }
+      .flaticon-arrow-pointing-to-right:before { content: "\f10a"; }
+      .flaticon-house:before { content: "\f10b"; }
+      .flaticon-left-arrow-2:before { content: "\f10c"; }
+      .flaticon-zoom:before { content: "\f10d"; }
+      .flaticon-loupe:before { content: "\f10e"; }
+      .flaticon-scroll:before { content: "\f10f"; }
+      .flaticon-like:before { content: "\f110"; }
+      .flaticon-play:before { content: "\f111"; }
+      .flaticon-soup:before { content: "\f112"; }
+      .flaticon-mango:before { content: "\f113"; }
+      .flaticon-menu:before { content: "\f114"; }
+      .flaticon-chef:before { content: "\f115"; }
+      .flaticon-hearts:before { content: "\f116"; }
+      .flaticon-more:before { content: "\f117"; }
+      .flaticon-recommended-food:before { content: "\f118"; }
+      .flaticon-add:before { content: "\f119"; }
+      .flaticon-shopping-list:before { content: "\f11a"; }
+      .flaticon-add-goods:before { content: "\f11b"; }
+      .flaticon-table:before { content: "\f11c"; }
+      .flaticon-calendar:before { content: "\f11d"; }
+      .flaticon-recipe-book:before { content: "\f11e"; }
+      .flaticon-instruction:before { content: "\f11f"; }
+      .flaticon-twitter-1:before { content: "\f120"; }
+      .flaticon-facebook-1:before { content: "\f121"; }
+      .flaticon-google-plus-symbol:before { content: "\f122"; }
+      .flaticon-cooking:before { content: "\f123"; }
+      .flaticon-chef-1:before { content: "\f124"; }
+      .flaticon-star:before { content: "\f125"; }
+      .flaticon-fast:before { content: "\f126"; }
+      .flaticon-profile-user:before { content: "\f127"; }
+      .flaticon-fire:before { content: "\f128"; }
+      .flaticon-button:before { content: "\f129"; }
+      .flaticon-checkmark:before { content: "\f12a"; }
+      .flaticon-document:before { content: "\f12b"; }
+      .flaticon-calendar-1:before { content: "\f12c"; }
+      .flaticon-calendar-2:before { content: "\f12d"; }
+      .flaticon-share:before { content: "\f12e"; }
+      .flaticon-down-arrow-1:before { content: "\f12f"; }
+      .flaticon-close:before { content: "\f130"; }
+      .flaticon-plus:before { content: "\f131"; }
+      .flaticon-insert-picture-icon:before { content: "\f132"; }
+      .flaticon-image:before { content: "\f133"; }
+      .flaticon-log-out:before { content: "\f134"; }
+      .flaticon-paper-plane:before { content: "\f135"; }
+      .flaticon-locked-padlock:before { content: "\f136"; }
+      .flaticon-online-store-cart:before { content: "\f137"; }
+      .flaticon-love:before { content: "\f138"; }
+      .flaticon-add-to-shopping-cart:before { content: "\f139"; }
+      .flaticon-add-to-shopping-cart-1:before { content: "\f13a"; }
+      .flaticon-heart-shape-outline-with-lining-at-right-edge:before { content: "\f13b"; }
